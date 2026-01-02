@@ -1,0 +1,40 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Course Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Course Selling Platform</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About</a>
+    <a href="#" onclick="openLogin()">Login</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Sell & Learn Courses Online</h2>
+  <p>Anyone can sell courses. Admin control included.</p>
+</section>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>This is a professional dark themed course selling platform.</p>
+</section>
+
+<section class="login" id="loginBox">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
